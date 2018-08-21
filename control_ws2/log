@@ -1,0 +1,297 @@
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseActionGoal
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_SetForceControlParams
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseActionFeedback
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_SetFingersPositionResult
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_PoseVelocity
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_ClearTrajectories
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_Stop
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseGoal
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_ArmPoseResult
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_SetTorqueControlMode
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_SetTorqueControlParameters
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseActionResult
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_SetFingersPositionActionResult
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_JointAngles
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_ArmPoseFeedback
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_ArmJointAnglesGoal
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_CartesianForce
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_ArmJointAnglesActionGoal
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_SetNullSpaceModeState
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_JointVelocity
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_SetEndEffectorOffset
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseFeedback
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_ArmJointAnglesActionFeedback
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_ArmPoseGoal
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_ZeroTorques
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseAction
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_FingerPosition
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_ArmJointAnglesFeedback
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_SetFingersPositionAction
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_Start
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_ArmPoseActionFeedback
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_ArmJointAnglesAction
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseResult
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_RunCOMParametersEstimation
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_SetFingersPositionActionGoal
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_ArmJointAnglesActionResult
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_ArmPoseActionGoal
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_AddPoseToCartesianTrajectory
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_SetFingersPositionGoal
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_ArmPoseAction
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_ArmJointAnglesResult
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_HomeArm
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_KinovaPose
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_ArmPoseActionResult
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_SetFingersPositionActionFeedback
+[  0%] Built target _kinova_msgs_generate_messages_check_deps_JointTorque
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_gencfg
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target kinova_driver_gencfg
+[  1%] Built target j2n6s300_arm_moveit_ikfast_plugin
+[  2%] Built target m1n6s300_mico_arm_moveit_ikfast_plugin
+[  2%] Built target j2s7s300_robot_arm_moveit_ikfast_plugin
+[ 18%] Built target kinova_msgs_generate_messages_cpp
+[ 36%] Built target kinova_msgs_generate_messages_py
+[ 53%] Built target kinova_msgs_generate_messages_nodejs
+[ 71%] Built target kinova_msgs_generate_messages_eus
+[ 87%] Built target kinova_msgs_generate_messages_lisp
+[ 87%] Built target kinova_msgs_generate_messages
+[ 88%] Built target kinova_tf_updater
+[ 89%] Built target joint_trajectory_action_server
+[ 90%] Built target gripper_command_action_server
+[ 93%] Built target kinova_driver
+[ 94%] Built target work_scene
+[ 95%] Built target kinova_interactive_control
+[ 96%] Built target kinova_arm_driver
+[ 96%] Building CXX object jaco-ros/kinova_moveit/kinova_arm_moveit_demo/CMakeFiles/motion_plan2.dir/src/motion_plan2.cpp.o
+[ 97%] Built target motion_plan
+[ 98%] Built target pick_place
+[100%] Built target test_accuracy
+In file included from /home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/motion_plan2.cpp:1:0:
+/opt/ros/kinetic/include/moveit/move_group_interface/move_group.h:43:2: warning: #warning "This header is deprecated and will go away in ROS lunar." "Please use moveit/move_group_interface/move_group_interface.h" "and the class MoveGroupInterface instead of MoveGroup" [-Wcpp]
+ #warning "This header is deprecated and will go away in ROS lunar."\
+  ^
+/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/motion_plan2.cpp: In function ‘void chatterCallback(const ConstPtr&)’:
+/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/motion_plan2.cpp:17:37: error: ‘node_handle’ was not declared in this scope
+  ros::Publisher display_publisher = node_handle.advertise<moveit_msgs::DisplayTrajectory>("/move_group/display_planned_path", 1, true);
+                                     ^
+/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/motion_plan2.cpp:17:89: error: expected primary-expression before ‘>’ token
+  ros::Publisher display_publisher = node_handle.advertise<moveit_msgs::DisplayTrajectory>("/move_group/display_planned_path", 1, true);
+                                                                                         ^
+In file included from /opt/ros/kinetic/include/ros/ros.h:40:0,
+                 from /opt/ros/kinetic/include/urdf/model.h:47,
+                 from /opt/ros/kinetic/include/moveit/robot_model/robot_model.h:43,
+                 from /opt/ros/kinetic/include/moveit/robot_state/robot_state.h:41,
+                 from /opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:43,
+                 from /opt/ros/kinetic/include/moveit/move_group_interface/move_group.h:40,
+                 from /home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/motion_plan2.cpp:1:
+/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/motion_plan2.cpp:20:36: error: ‘group’ was not declared in this scope
+    ROS_INFO("Reference frame: %s", group.getPlanningFrame().c_str());
+                                    ^
+/opt/ros/kinetic/include/ros/console.h:346:165: note: in definition of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+                                                                                                                                                                     ^
+/opt/ros/kinetic/include/ros/console.h:379:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+       ^
+/opt/ros/kinetic/include/ros/console.h:561:35: note: in expansion of macro ‘ROS_LOG_COND’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+                                   ^
+/opt/ros/kinetic/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       ^
+/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/motion_plan2.cpp:20:4: note: in expansion of macro ‘ROS_INFO’
+    ROS_INFO("Reference frame: %s", group.getPlanningFrame().c_str());
+    ^
+/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/motion_plan2.cpp:20:36: note: suggested alternative:
+    ROS_INFO("Reference frame: %s", group.getPlanningFrame().c_str());
+                                    ^
+/opt/ros/kinetic/include/ros/console.h:346:165: note: in definition of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+                                                                                                                                                                     ^
+/opt/ros/kinetic/include/ros/console.h:379:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+       ^
+/opt/ros/kinetic/include/ros/console.h:561:35: note: in expansion of macro ‘ROS_LOG_COND’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+                                   ^
+/opt/ros/kinetic/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       ^
+/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/motion_plan2.cpp:20:4: note: in expansion of macro ‘ROS_INFO’
+    ROS_INFO("Reference frame: %s", group.getPlanningFrame().c_str());
+    ^
+In file included from /usr/include/boost/format.hpp:48:0,
+                 from /usr/include/boost/math/policies/error_handling.hpp:31,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/kinetic/include/ros/time.h:58,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /opt/ros/kinetic/include/urdf/model.h:47,
+                 from /opt/ros/kinetic/include/moveit/robot_model/robot_model.h:43,
+                 from /opt/ros/kinetic/include/moveit/robot_state/robot_state.h:41,
+                 from /opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:43,
+                 from /opt/ros/kinetic/include/moveit/move_group_interface/move_group.h:40,
+                 from /home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/motion_plan2.cpp:1:
+/usr/include/boost/format/group.hpp:667:3: note:   ‘boost::io::group’
+   group(T1 a1,T2 a2,T3 a3,T4 a4,T5 a5,T6 a6,T7 a7,T8 a8,T9 a9, Var& var)
+   ^
+In file included from /opt/ros/kinetic/include/ros/ros.h:40:0,
+                 from /opt/ros/kinetic/include/urdf/model.h:47,
+                 from /opt/ros/kinetic/include/moveit/robot_model/robot_model.h:43,
+                 from /opt/ros/kinetic/include/moveit/robot_state/robot_state.h:41,
+                 from /opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:43,
+                 from /opt/ros/kinetic/include/moveit/move_group_interface/move_group.h:40,
+                 from /home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/motion_plan2.cpp:1:
+/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/motion_plan2.cpp:22:36: error: ‘group’ was not declared in this scope
+    ROS_INFO("Reference frame: %s", group.getEndEffectorLink().c_str());
+                                    ^
+/opt/ros/kinetic/include/ros/console.h:346:165: note: in definition of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+                                                                                                                                                                     ^
+/opt/ros/kinetic/include/ros/console.h:379:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+       ^
+/opt/ros/kinetic/include/ros/console.h:561:35: note: in expansion of macro ‘ROS_LOG_COND’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+                                   ^
+/opt/ros/kinetic/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       ^
+/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/motion_plan2.cpp:22:4: note: in expansion of macro ‘ROS_INFO’
+    ROS_INFO("Reference frame: %s", group.getEndEffectorLink().c_str());
+    ^
+/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/motion_plan2.cpp:22:36: note: suggested alternative:
+    ROS_INFO("Reference frame: %s", group.getEndEffectorLink().c_str());
+                                    ^
+/opt/ros/kinetic/include/ros/console.h:346:165: note: in definition of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+                                                                                                                                                                     ^
+/opt/ros/kinetic/include/ros/console.h:379:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+       ^
+/opt/ros/kinetic/include/ros/console.h:561:35: note: in expansion of macro ‘ROS_LOG_COND’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+                                   ^
+/opt/ros/kinetic/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       ^
+/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/motion_plan2.cpp:22:4: note: in expansion of macro ‘ROS_INFO’
+    ROS_INFO("Reference frame: %s", group.getEndEffectorLink().c_str());
+    ^
+In file included from /usr/include/boost/format.hpp:48:0,
+                 from /usr/include/boost/math/policies/error_handling.hpp:31,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/kinetic/include/ros/time.h:58,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /opt/ros/kinetic/include/urdf/model.h:47,
+                 from /opt/ros/kinetic/include/moveit/robot_model/robot_model.h:43,
+                 from /opt/ros/kinetic/include/moveit/robot_state/robot_state.h:41,
+                 from /opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:43,
+                 from /opt/ros/kinetic/include/moveit/move_group_interface/move_group.h:40,
+                 from /home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/motion_plan2.cpp:1:
+/usr/include/boost/format/group.hpp:667:3: note:   ‘boost::io::group’
+   group(T1 a1,T2 a2,T3 a3,T4 a4,T5 a5,T6 a6,T7 a7,T8 a8,T9 a9, Var& var)
+   ^
+/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/motion_plan2.cpp:34:4: error: ‘group’ was not declared in this scope
+    group.setPoseTarget(target_pose1);
+    ^
+/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/motion_plan2.cpp:34:4: note: suggested alternative:
+In file included from /usr/include/boost/format.hpp:48:0,
+                 from /usr/include/boost/math/policies/error_handling.hpp:31,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/kinetic/include/ros/time.h:58,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /opt/ros/kinetic/include/urdf/model.h:47,
+                 from /opt/ros/kinetic/include/moveit/robot_model/robot_model.h:43,
+                 from /opt/ros/kinetic/include/moveit/robot_state/robot_state.h:41,
+                 from /opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:43,
+                 from /opt/ros/kinetic/include/moveit/move_group_interface/move_group.h:40,
+                 from /home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/motion_plan2.cpp:1:
+/usr/include/boost/format/group.hpp:667:3: note:   ‘boost::io::group’
+   group(T1 a1,T2 a2,T3 a3,T4 a4,T5 a5,T6 a6,T7 a7,T8 a8,T9 a9, Var& var)
+   ^
+/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/motion_plan2.cpp:48:8: error: unable to find numeric literal operator ‘operator""s’
+  sleep(10s);
+        ^
+/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/motion_plan2.cpp:48:8: note: use -std=gnu++11 or -fext-numeric-literals to enable more built-in suffixes
+/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/motion_plan2.cpp: In function ‘int main(int, char**)’:
+/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/motion_plan2.cpp:61:46: warning: ‘MoveGroup’ is deprecated [-Wdeprecated-declarations]
+   moveit::planning_interface::MoveGroup group("arm");
+                                              ^
+In file included from /home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/motion_plan2.cpp:1:0:
+/opt/ros/kinetic/include/moveit/move_group_interface/move_group.h:56:7: note: declared here
+ class MoveGroup : public MoveGroupInterface
+       ^
+jaco-ros/kinova_moveit/kinova_arm_moveit_demo/CMakeFiles/motion_plan2.dir/build.make:62: recipe for target 'jaco-ros/kinova_moveit/kinova_arm_moveit_demo/CMakeFiles/motion_plan2.dir/src/motion_plan2.cpp.o' failed
+make[2]: *** [jaco-ros/kinova_moveit/kinova_arm_moveit_demo/CMakeFiles/motion_plan2.dir/src/motion_plan2.cpp.o] Error 1
+CMakeFiles/Makefile2:6195: recipe for target 'jaco-ros/kinova_moveit/kinova_arm_moveit_demo/CMakeFiles/motion_plan2.dir/all' failed
+make[1]: *** [jaco-ros/kinova_moveit/kinova_arm_moveit_demo/CMakeFiles/motion_plan2.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2
+Base path: /home/zy/Documents/SummerResearch/jaco/control_ws2
+Source space: /home/zy/Documents/SummerResearch/jaco/control_ws2/src
+Build space: /home/zy/Documents/SummerResearch/jaco/control_ws2/build
+Devel space: /home/zy/Documents/SummerResearch/jaco/control_ws2/devel
+Install space: /home/zy/Documents/SummerResearch/jaco/control_ws2/install
+####
+#### Running command: "make cmake_check_build_system" in "/home/zy/Documents/SummerResearch/jaco/control_ws2/build"
+####
+####
+#### Running command: "make -j4 -l4" in "/home/zy/Documents/SummerResearch/jaco/control_ws2/build"
+####
+Invoking "make -j4 -l4" failed

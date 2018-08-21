@@ -1,0 +1,8 @@
+prefix=/home/zy/Documents/SummerResearch/jaco/control_ws2/install
+
+Name: kinova_demo
+Description: Description of kinova_demo
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/zy/Documents/SummerResearch/jaco/control_ws2/install/lib 
+Requires: kinova_driver kinova_msgs roscpp rospy std_msgs geometry_msgs

@@ -1,0 +1,8 @@
+prefix=/home/zy/Documents/SummerResearch/jaco/control_ws2/install
+
+Name: kinova_control
+Description: Description of kinova_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/zy/Documents/SummerResearch/jaco/control_ws2/install/lib 
+Requires: 

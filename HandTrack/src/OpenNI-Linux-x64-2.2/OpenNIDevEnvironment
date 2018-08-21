@@ -1,0 +1,2 @@
+export OPENNI2_INCLUDE=/home/zy/Documents/SummerResearch/jaco_robot_arm_control/HandTrack/src/OpenNI-Linux-x64-2.2/Include
+export OPENNI2_REDIST=/home/zy/Documents/SummerResearch/jaco_robot_arm_control/HandTrack/src/OpenNI-Linux-x64-2.2/Redist
