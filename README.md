@@ -5,6 +5,26 @@ Control Jaco Robot arm's hand position by human hand position using kinect
 
 Environment: ubuntu:16.04 ROS:kinetic
 
+Pre-install:
+
+```sudo apt-get install expect ros-kinetic-rosconsole* ros-kinetic-moveit* ros-kinetic-trac*``` 
+#Download files
+git clone https://github.com/jackietom/jaco\_robot\_arm\_control.git
+
+cd jaco\_robot\_arm\_control/
+
+#Recompile HandTrack workspace
+cd HandTrack
+
+rm -r build && rm -r devel
+
+catkin\_make
+
+#Recompile control\_ws2 workspace
+```
+cd ../control\_ws2 
+rm -r build devel
+```
 ##### Usage
 
 You need to open 3 terminals(or use tmux)
