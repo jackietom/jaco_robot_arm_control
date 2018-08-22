@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/pick_place.cpp" "/home/zy/Documents/SummerResearch/jaco/control_ws2/build/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/CMakeFiles/pick_place.dir/src/pick_place.cpp.o"
+  "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/pick_place.cpp" "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/CMakeFiles/pick_place.dir/src/pick_place.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,17 +17,17 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/include"
+  "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"
-  "/home/zy/Documents/SummerResearch/jaco/control_ws2/devel/include"
-  "/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_driver/include"
+  "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/devel/include"
+  "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/src/jaco-ros/kinova_driver/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/zy/Documents/SummerResearch/jaco/control_ws2/build/jaco-ros/kinova_driver/CMakeFiles/kinova_driver.dir/DependInfo.cmake"
+  "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build/jaco-ros/kinova_driver/CMakeFiles/kinova_driver.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

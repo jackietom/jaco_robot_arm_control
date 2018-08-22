@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zy/Documents/SummerResearch/jaco/control_ws2/src
+CMAKE_SOURCE_DIR = /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zy/Documents/SummerResearch/jaco/control_ws2/build
+CMAKE_BINARY_DIR = /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/zy/Documents/SummerResearch/jaco/control_ws2/build/CMakeFiles /home/zy/Documents/SummerResearch/jaco/control_ws2/build/jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/progress.marks
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zy/Documents/SummerResearch/jaco/control_ws2/build/CMakeFiles 0
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build/CMakeFiles /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build/jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/progress.marks
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/clean
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/preinstall
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/preinstall
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ octomap_msgs_generate_messages_nodejs: jaco-ros/kinova_moveit/inverse_kinematics
 
 # fast build rule for target.
 octomap_msgs_generate_messages_nodejs/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/build
 .PHONY : octomap_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_nodejs.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_nodejs.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ moveit_msgs_generate_messages_nodejs: jaco-ros/kinova_moveit/inverse_kinematics_
 
 # fast build rule for target.
 moveit_msgs_generate_messages_nodejs/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_nodejs.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_nodejs.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_nodejs.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_nodejs.dir/build
 .PHONY : moveit_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_py.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_py.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_py.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ shape_msgs_generate_messages_py: jaco-ros/kinova_moveit/inverse_kinematics_plugi
 
 # fast build rule for target.
 shape_msgs_generate_messages_py/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_py.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_py.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_py.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_py.dir/build
 .PHONY : shape_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_py.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_py.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_py.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ octomap_msgs_generate_messages_py: jaco-ros/kinova_moveit/inverse_kinematics_plu
 
 # fast build rule for target.
 octomap_msgs_generate_messages_py/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_py.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_py.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_py.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_py.dir/build
 .PHONY : octomap_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_lisp.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_lisp.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_lisp.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ moveit_msgs_generate_messages_lisp: jaco-ros/kinova_moveit/inverse_kinematics_pl
 
 # fast build rule for target.
 moveit_msgs_generate_messages_lisp/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_lisp.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_lisp.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_lisp.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_lisp.dir/build
 .PHONY : moveit_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ octomap_msgs_generate_messages_lisp: jaco-ros/kinova_moveit/inverse_kinematics_p
 
 # fast build rule for target.
 octomap_msgs_generate_messages_lisp/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/build
 .PHONY : octomap_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_py.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_py.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_py.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ moveit_msgs_generate_messages_py: jaco-ros/kinova_moveit/inverse_kinematics_plug
 
 # fast build rule for target.
 moveit_msgs_generate_messages_py/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_py.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_py.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_py.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_py.dir/build
 .PHONY : moveit_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_eus.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_eus.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_eus.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -282,12 +282,12 @@ shape_msgs_generate_messages_eus: jaco-ros/kinova_moveit/inverse_kinematics_plug
 
 # fast build rule for target.
 shape_msgs_generate_messages_eus/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_eus.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_eus.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_eus.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_eus.dir/build
 .PHONY : shape_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -297,12 +297,12 @@ octomap_msgs_generate_messages_eus: jaco-ros/kinova_moveit/inverse_kinematics_pl
 
 # fast build rule for target.
 octomap_msgs_generate_messages_eus/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_eus.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_eus.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_eus.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_eus.dir/build
 .PHONY : octomap_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_eus.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_eus.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_eus.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -312,12 +312,12 @@ moveit_msgs_generate_messages_eus: jaco-ros/kinova_moveit/inverse_kinematics_plu
 
 # fast build rule for target.
 moveit_msgs_generate_messages_eus/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_eus.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_eus.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_eus.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_eus.dir/build
 .PHONY : moveit_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -327,12 +327,12 @@ object_recognition_msgs_generate_messages_eus: jaco-ros/kinova_moveit/inverse_ki
 
 # fast build rule for target.
 object_recognition_msgs_generate_messages_eus/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_eus.dir/build
 .PHONY : object_recognition_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_cpp.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_cpp.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_cpp.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -342,12 +342,12 @@ moveit_msgs_generate_messages_cpp: jaco-ros/kinova_moveit/inverse_kinematics_plu
 
 # fast build rule for target.
 moveit_msgs_generate_messages_cpp/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_cpp.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_cpp.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_cpp.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/moveit_msgs_generate_messages_cpp.dir/build
 .PHONY : moveit_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/j2n6s300_arm_moveit_ikfast_plugin.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/j2n6s300_arm_moveit_ikfast_plugin.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/j2n6s300_arm_moveit_ikfast_plugin.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/j2n6s300_arm_moveit_ikfast_plugin.dir/rule
 
 # Convenience name for target.
@@ -357,12 +357,12 @@ j2n6s300_arm_moveit_ikfast_plugin: jaco-ros/kinova_moveit/inverse_kinematics_plu
 
 # fast build rule for target.
 j2n6s300_arm_moveit_ikfast_plugin/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/j2n6s300_arm_moveit_ikfast_plugin.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/j2n6s300_arm_moveit_ikfast_plugin.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/j2n6s300_arm_moveit_ikfast_plugin.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/j2n6s300_arm_moveit_ikfast_plugin.dir/build
 .PHONY : j2n6s300_arm_moveit_ikfast_plugin/fast
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -372,12 +372,12 @@ trajectory_msgs_generate_messages_py: jaco-ros/kinova_moveit/inverse_kinematics_
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_py/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
 .PHONY : trajectory_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_cpp.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_cpp.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_cpp.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -387,12 +387,12 @@ object_recognition_msgs_generate_messages_cpp: jaco-ros/kinova_moveit/inverse_ki
 
 # fast build rule for target.
 object_recognition_msgs_generate_messages_cpp/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_cpp.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_cpp.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_cpp.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_cpp.dir/build
 .PHONY : object_recognition_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_cpp.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_cpp.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_cpp.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -402,12 +402,12 @@ shape_msgs_generate_messages_cpp: jaco-ros/kinova_moveit/inverse_kinematics_plug
 
 # fast build rule for target.
 shape_msgs_generate_messages_cpp/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_cpp.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_cpp.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_cpp.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_cpp.dir/build
 .PHONY : shape_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_lisp.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_lisp.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_lisp.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -417,12 +417,12 @@ shape_msgs_generate_messages_lisp: jaco-ros/kinova_moveit/inverse_kinematics_plu
 
 # fast build rule for target.
 shape_msgs_generate_messages_lisp/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_lisp.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_lisp.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_lisp.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_lisp.dir/build
 .PHONY : shape_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_nodejs.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_nodejs.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -432,12 +432,12 @@ shape_msgs_generate_messages_nodejs: jaco-ros/kinova_moveit/inverse_kinematics_p
 
 # fast build rule for target.
 shape_msgs_generate_messages_nodejs/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_nodejs.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_nodejs.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_nodejs.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/shape_msgs_generate_messages_nodejs.dir/build
 .PHONY : shape_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -447,12 +447,12 @@ object_recognition_msgs_generate_messages_py: jaco-ros/kinova_moveit/inverse_kin
 
 # fast build rule for target.
 object_recognition_msgs_generate_messages_py/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/build
 .PHONY : object_recognition_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -462,12 +462,12 @@ trajectory_msgs_generate_messages_cpp: jaco-ros/kinova_moveit/inverse_kinematics
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_cpp/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
 .PHONY : trajectory_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -477,12 +477,12 @@ object_recognition_msgs_generate_messages_lisp: jaco-ros/kinova_moveit/inverse_k
 
 # fast build rule for target.
 object_recognition_msgs_generate_messages_lisp/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/build
 .PHONY : object_recognition_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -492,12 +492,12 @@ trajectory_msgs_generate_messages_eus: jaco-ros/kinova_moveit/inverse_kinematics
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_eus/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
 .PHONY : trajectory_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -507,12 +507,12 @@ trajectory_msgs_generate_messages_nodejs: jaco-ros/kinova_moveit/inverse_kinemat
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_nodejs/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
 .PHONY : trajectory_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -522,12 +522,12 @@ trajectory_msgs_generate_messages_lisp: jaco-ros/kinova_moveit/inverse_kinematic
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_lisp/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
 .PHONY : trajectory_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -537,12 +537,12 @@ object_recognition_msgs_generate_messages_nodejs: jaco-ros/kinova_moveit/inverse
 
 # fast build rule for target.
 object_recognition_msgs_generate_messages_nodejs/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/build
 .PHONY : object_recognition_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule
 .PHONY : jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -552,7 +552,7 @@ octomap_msgs_generate_messages_cpp: jaco-ros/kinova_moveit/inverse_kinematics_pl
 
 # fast build rule for target.
 octomap_msgs_generate_messages_cpp/fast:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build
 .PHONY : octomap_msgs_generate_messages_cpp/fast
 
 src/j2n6s300_arm_ikfast_moveit_plugin.o: src/j2n6s300_arm_ikfast_moveit_plugin.cpp.o
@@ -561,7 +561,7 @@ src/j2n6s300_arm_ikfast_moveit_plugin.o: src/j2n6s300_arm_ikfast_moveit_plugin.c
 
 # target to build an object file
 src/j2n6s300_arm_ikfast_moveit_plugin.cpp.o:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/j2n6s300_arm_moveit_ikfast_plugin.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/j2n6s300_arm_moveit_ikfast_plugin.dir/src/j2n6s300_arm_ikfast_moveit_plugin.cpp.o
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/j2n6s300_arm_moveit_ikfast_plugin.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/j2n6s300_arm_moveit_ikfast_plugin.dir/src/j2n6s300_arm_ikfast_moveit_plugin.cpp.o
 .PHONY : src/j2n6s300_arm_ikfast_moveit_plugin.cpp.o
 
 src/j2n6s300_arm_ikfast_moveit_plugin.i: src/j2n6s300_arm_ikfast_moveit_plugin.cpp.i
@@ -570,7 +570,7 @@ src/j2n6s300_arm_ikfast_moveit_plugin.i: src/j2n6s300_arm_ikfast_moveit_plugin.c
 
 # target to preprocess a source file
 src/j2n6s300_arm_ikfast_moveit_plugin.cpp.i:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/j2n6s300_arm_moveit_ikfast_plugin.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/j2n6s300_arm_moveit_ikfast_plugin.dir/src/j2n6s300_arm_ikfast_moveit_plugin.cpp.i
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/j2n6s300_arm_moveit_ikfast_plugin.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/j2n6s300_arm_moveit_ikfast_plugin.dir/src/j2n6s300_arm_ikfast_moveit_plugin.cpp.i
 .PHONY : src/j2n6s300_arm_ikfast_moveit_plugin.cpp.i
 
 src/j2n6s300_arm_ikfast_moveit_plugin.s: src/j2n6s300_arm_ikfast_moveit_plugin.cpp.s
@@ -579,7 +579,7 @@ src/j2n6s300_arm_ikfast_moveit_plugin.s: src/j2n6s300_arm_ikfast_moveit_plugin.c
 
 # target to generate assembly for a file
 src/j2n6s300_arm_ikfast_moveit_plugin.cpp.s:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/j2n6s300_arm_moveit_ikfast_plugin.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/j2n6s300_arm_moveit_ikfast_plugin.dir/src/j2n6s300_arm_ikfast_moveit_plugin.cpp.s
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(MAKE) -f jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/j2n6s300_arm_moveit_ikfast_plugin.dir/build.make jaco-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/CMakeFiles/j2n6s300_arm_moveit_ikfast_plugin.dir/src/j2n6s300_arm_ikfast_moveit_plugin.cpp.s
 .PHONY : src/j2n6s300_arm_ikfast_moveit_plugin.cpp.s
 
 # Help Target
@@ -635,6 +635,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

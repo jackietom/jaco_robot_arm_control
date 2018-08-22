@@ -1,8 +1,0 @@
-prefix=/home/zy/Documents/SummerResearch/jaco_robot_arm_control/HandTrack/devel
-
-Name: talker
-Description: Description of talker
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/zy/Documents/SummerResearch/jaco_robot_arm_control/HandTrack/devel/lib 
-Requires: 

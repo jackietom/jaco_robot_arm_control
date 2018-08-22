@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/work_scene.cpp
+/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/src/jaco-ros/kinova_moveit/kinova_arm_moveit_demo/src/work_scene.cpp
 ros/ros.h
 -
 geometry_msgs/Pose.h

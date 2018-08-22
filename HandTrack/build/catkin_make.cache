@@ -1,2 +1,2 @@
-talker
+beginner_tutorials
 -DCATKIN_DEVEL_PREFIX=/home/zy/Documents/SummerResearch/jaco_robot_arm_control/HandTrack/devel -DCMAKE_INSTALL_PREFIX=/home/zy/Documents/SummerResearch/jaco_robot_arm_control/HandTrack/install -G Unix Makefiles

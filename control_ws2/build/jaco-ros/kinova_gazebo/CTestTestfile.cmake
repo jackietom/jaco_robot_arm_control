@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_gazebo
-# Build directory: /home/zy/Documents/SummerResearch/jaco/control_ws2/build/jaco-ros/kinova_gazebo
+# Source directory: /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/src/jaco-ros/kinova_gazebo
+# Build directory: /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build/jaco-ros/kinova_gazebo
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

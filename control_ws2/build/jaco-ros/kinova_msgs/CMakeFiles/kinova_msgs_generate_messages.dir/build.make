@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zy/Documents/SummerResearch/jaco/control_ws2/src
+CMAKE_SOURCE_DIR = /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zy/Documents/SummerResearch/jaco/control_ws2/build
+CMAKE_BINARY_DIR = /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build
 
 # Utility rule file for kinova_msgs_generate_messages.
 
@@ -63,10 +63,10 @@ jaco-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages.dir/build: kinova_
 .PHONY : jaco-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages.dir/build
 
 jaco-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages.dir/clean:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build/jaco-ros/kinova_msgs && $(CMAKE_COMMAND) -P CMakeFiles/kinova_msgs_generate_messages.dir/cmake_clean.cmake
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build/jaco-ros/kinova_msgs && $(CMAKE_COMMAND) -P CMakeFiles/kinova_msgs_generate_messages.dir/cmake_clean.cmake
 .PHONY : jaco-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages.dir/clean
 
 jaco-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages.dir/depend:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zy/Documents/SummerResearch/jaco/control_ws2/src /home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_msgs /home/zy/Documents/SummerResearch/jaco/control_ws2/build /home/zy/Documents/SummerResearch/jaco/control_ws2/build/jaco-ros/kinova_msgs /home/zy/Documents/SummerResearch/jaco/control_ws2/build/jaco-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/src /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/src/jaco-ros/kinova_msgs /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build/jaco-ros/kinova_msgs /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build/jaco-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : jaco-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages.dir/depend
 

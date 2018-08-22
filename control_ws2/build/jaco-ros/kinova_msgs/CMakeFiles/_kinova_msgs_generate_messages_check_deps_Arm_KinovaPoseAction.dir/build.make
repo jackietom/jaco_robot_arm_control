@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zy/Documents/SummerResearch/jaco/control_ws2/src
+CMAKE_SOURCE_DIR = /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zy/Documents/SummerResearch/jaco/control_ws2/build
+CMAKE_BINARY_DIR = /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build
 
 # Utility rule file for _kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseAction.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/zy/Documents/SummerResearch/jaco/control_ws2/build
 include jaco-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseAction.dir/progress.make
 
 jaco-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseAction:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build/jaco-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py kinova_msgs /home/zy/Documents/SummerResearch/jaco/control_ws2/devel/share/kinova_msgs/msg/Arm_KinovaPoseAction.msg kinova_msgs/Arm_KinovaPoseFeedback:std_msgs/Header:kinova_msgs/Arm_KinovaPoseGoal:kinova_msgs/Arm_KinovaPoseActionFeedback:kinova_msgs/KinovaPose:kinova_msgs/Arm_KinovaPoseActionGoal:kinova_msgs/Arm_KinovaPoseActionResult:kinova_msgs/Arm_KinovaPoseResult:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build/jaco-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py kinova_msgs /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/devel/share/kinova_msgs/msg/Arm_KinovaPoseAction.msg kinova_msgs/Arm_KinovaPoseGoal:kinova_msgs/Arm_KinovaPoseResult:kinova_msgs/KinovaPose:std_msgs/Header:kinova_msgs/Arm_KinovaPoseActionGoal:kinova_msgs/Arm_KinovaPoseActionFeedback:kinova_msgs/Arm_KinovaPoseActionResult:actionlib_msgs/GoalID:kinova_msgs/Arm_KinovaPoseFeedback:actionlib_msgs/GoalStatus
 
 _kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseAction: jaco-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseAction
 _kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseAction: jaco-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseAction.dir/build.make
@@ -67,10 +67,10 @@ jaco-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_Arm_Ki
 .PHONY : jaco-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseAction.dir/build
 
 jaco-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseAction.dir/clean:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build/jaco-ros/kinova_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseAction.dir/cmake_clean.cmake
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build/jaco-ros/kinova_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseAction.dir/cmake_clean.cmake
 .PHONY : jaco-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseAction.dir/clean
 
 jaco-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseAction.dir/depend:
-	cd /home/zy/Documents/SummerResearch/jaco/control_ws2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zy/Documents/SummerResearch/jaco/control_ws2/src /home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_msgs /home/zy/Documents/SummerResearch/jaco/control_ws2/build /home/zy/Documents/SummerResearch/jaco/control_ws2/build/jaco-ros/kinova_msgs /home/zy/Documents/SummerResearch/jaco/control_ws2/build/jaco-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseAction.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/src /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/src/jaco-ros/kinova_msgs /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build/jaco-ros/kinova_msgs /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build/jaco-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseAction.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : jaco-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_Arm_KinovaPoseAction.dir/depend
 

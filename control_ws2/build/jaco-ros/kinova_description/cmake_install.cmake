@@ -1,8 +1,8 @@
-# Install script for directory: /home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_description
+# Install script for directory: /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/src/jaco-ros/kinova_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zy/Documents/SummerResearch/jaco/control_ws2/install")
+  set(CMAKE_INSTALL_PREFIX "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,28 +33,28 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zy/Documents/SummerResearch/jaco/control_ws2/build/jaco-ros/kinova_description/catkin_generated/installspace/kinova_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build/jaco-ros/kinova_description/catkin_generated/installspace/kinova_description.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kinova_description/cmake" TYPE FILE FILES
-    "/home/zy/Documents/SummerResearch/jaco/control_ws2/build/jaco-ros/kinova_description/catkin_generated/installspace/kinova_descriptionConfig.cmake"
-    "/home/zy/Documents/SummerResearch/jaco/control_ws2/build/jaco-ros/kinova_description/catkin_generated/installspace/kinova_descriptionConfig-version.cmake"
+    "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build/jaco-ros/kinova_description/catkin_generated/installspace/kinova_descriptionConfig.cmake"
+    "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build/jaco-ros/kinova_description/catkin_generated/installspace/kinova_descriptionConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kinova_description" TYPE FILE FILES "/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kinova_description" TYPE FILE FILES "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/src/jaco-ros/kinova_description/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kinova_description" TYPE DIRECTORY FILES
-    "/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_description/launch"
-    "/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_description/urdf"
+    "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/src/jaco-ros/kinova_description/launch"
+    "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/src/jaco-ros/kinova_description/urdf"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kinova_description" TYPE DIRECTORY FILES "/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_description/meshes" FILES_MATCHING REGEX "/[^/]*\\.dae$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kinova_description" TYPE DIRECTORY FILES "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/src/jaco-ros/kinova_description/meshes" FILES_MATCHING REGEX "/[^/]*\\.dae$")
 endif()
 

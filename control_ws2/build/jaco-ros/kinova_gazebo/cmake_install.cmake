@@ -1,8 +1,8 @@
-# Install script for directory: /home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_gazebo
+# Install script for directory: /home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/src/jaco-ros/kinova_gazebo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zy/Documents/SummerResearch/jaco/control_ws2/install")
+  set(CMAKE_INSTALL_PREFIX "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,25 +33,25 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zy/Documents/SummerResearch/jaco/control_ws2/build/jaco-ros/kinova_gazebo/catkin_generated/installspace/kinova_gazebo.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build/jaco-ros/kinova_gazebo/catkin_generated/installspace/kinova_gazebo.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kinova_gazebo/cmake" TYPE FILE FILES
-    "/home/zy/Documents/SummerResearch/jaco/control_ws2/build/jaco-ros/kinova_gazebo/catkin_generated/installspace/kinova_gazeboConfig.cmake"
-    "/home/zy/Documents/SummerResearch/jaco/control_ws2/build/jaco-ros/kinova_gazebo/catkin_generated/installspace/kinova_gazeboConfig-version.cmake"
+    "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build/jaco-ros/kinova_gazebo/catkin_generated/installspace/kinova_gazeboConfig.cmake"
+    "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build/jaco-ros/kinova_gazebo/catkin_generated/installspace/kinova_gazeboConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kinova_gazebo" TYPE FILE FILES "/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_gazebo/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kinova_gazebo" TYPE FILE FILES "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/src/jaco-ros/kinova_gazebo/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kinova_gazebo" TYPE DIRECTORY FILES "/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_gazebo/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kinova_gazebo" TYPE DIRECTORY FILES "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/src/jaco-ros/kinova_gazebo/launch")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kinova_gazebo" TYPE DIRECTORY FILES "/home/zy/Documents/SummerResearch/jaco/control_ws2/src/jaco-ros/kinova_gazebo/worlds")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kinova_gazebo" TYPE DIRECTORY FILES "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/src/jaco-ros/kinova_gazebo/worlds")
 endif()
 

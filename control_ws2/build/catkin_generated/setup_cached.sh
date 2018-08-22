@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/zy/Documents/SummerResearch/jaco/control_ws2/devel:$CMAKE_PREFIX_PATH"
-export PWD="/home/zy/Documents/SummerResearch/jaco/control_ws2/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/zy/Documents/SummerResearch/jaco/control_ws2/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/zy/Documents/SummerResearch/jaco/control_ws2/src:$ROS_PACKAGE_PATH"
+export LD_LIBRARY_PATH="/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu"
+export PKG_CONFIG_PATH="/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig"
+export PWD="/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/build"
+export PYTHONPATH="/opt/ros/kinetic/lib/python2.7/dist-packages"

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/kinova_arm_driver.dir/src/nodes/kinova_arm_driver.cpp.o"
-  "/home/zy/Documents/SummerResearch/jaco/control_ws2/devel/lib/kinova_driver/kinova_arm_driver.pdb"
-  "/home/zy/Documents/SummerResearch/jaco/control_ws2/devel/lib/kinova_driver/kinova_arm_driver"
+  "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/devel/lib/kinova_driver/kinova_arm_driver.pdb"
+  "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/devel/lib/kinova_driver/kinova_arm_driver"
 )
 
 # Per-language clean rules from dependency scanning.

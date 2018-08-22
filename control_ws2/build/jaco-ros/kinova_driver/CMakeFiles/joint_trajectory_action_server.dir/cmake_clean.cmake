@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/joint_trajectory_action_server.dir/src/joint_trajectory_action/joint_trajectory_action_server.cpp.o"
-  "/home/zy/Documents/SummerResearch/jaco/control_ws2/devel/lib/kinova_driver/joint_trajectory_action_server.pdb"
-  "/home/zy/Documents/SummerResearch/jaco/control_ws2/devel/lib/kinova_driver/joint_trajectory_action_server"
+  "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/devel/lib/kinova_driver/joint_trajectory_action_server.pdb"
+  "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/devel/lib/kinova_driver/joint_trajectory_action_server"
 )
 
 # Per-language clean rules from dependency scanning.

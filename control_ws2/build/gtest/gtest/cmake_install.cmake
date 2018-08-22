@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zy/Documents/SummerResearch/jaco/control_ws2/install")
+  set(CMAKE_INSTALL_PREFIX "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

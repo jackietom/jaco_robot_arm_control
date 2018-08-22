@@ -7,4 +7,7 @@
 # new environment variables
 
 # modified environment variables
+export LD_LIBRARY_PATH="/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu:/home/zy/Documents/SummerResearch/jaco_robot_arm_control/HandTrack/src/NiTE-Linux-x64-2.2/Samples/Bin"
+export PKG_CONFIG_PATH="/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig"
 export PWD="/home/zy/Documents/SummerResearch/jaco_robot_arm_control/HandTrack/build"
+export PYTHONPATH="/opt/ros/kinetic/lib/python2.7/dist-packages"

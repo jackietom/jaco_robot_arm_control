@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "kinova_control"
-PROJECT_SPACE_DIR = "/home/zy/Documents/SummerResearch/jaco/control_ws2/install"
+PROJECT_SPACE_DIR = "/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/install"
 PROJECT_VERSION = "0.0.0"

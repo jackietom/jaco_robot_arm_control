@@ -1,8 +1,8 @@
-prefix=/home/zy/Documents/SummerResearch/jaco/control_ws2/install
+prefix=/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/install
 
 Name: kinova_arm_moveit_demo
 Description: Description of kinova_arm_moveit_demo
 Version: 0.6.3
-Cflags: -I/home/zy/Documents/SummerResearch/jaco/control_ws2/install/include
-Libs: -L/home/zy/Documents/SummerResearch/jaco/control_ws2/install/lib 
+Cflags: -I/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/install/include
+Libs: -L/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/install/lib 
 Requires: moveit_core moveit_ros_planning_interface interactive_markers

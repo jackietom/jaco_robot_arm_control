@@ -1,8 +1,8 @@
-prefix=/home/zy/Documents/SummerResearch/jaco/control_ws2/devel
+prefix=/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/devel
 
 Name: kinova_demo
 Description: Description of kinova_demo
 Version: 0.0.1
 Cflags: 
-Libs: -L/home/zy/Documents/SummerResearch/jaco/control_ws2/devel/lib 
+Libs: -L/home/zy/Documents/SummerResearch/jaco_robot_arm_control/control_ws2/devel/lib 
 Requires: kinova_driver kinova_msgs roscpp rospy std_msgs geometry_msgs
