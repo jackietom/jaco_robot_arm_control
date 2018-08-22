@@ -1,0 +1,4 @@
+To make the file work in ubuntu 16.04, user need to 
+modify files according to 
+https://github.com/Kinovarobotics/kinova-ros/issues/103
+
